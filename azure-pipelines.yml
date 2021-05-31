@@ -5,6 +5,10 @@
 trigger:
 - main
 
+pool:
+  vmImage: 'windows-latest'
+
+
 jobs:
 - job: Job_1
   displayName: Pre-reqs
